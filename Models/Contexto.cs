@@ -8,5 +8,11 @@ namespace ProjetoCorina.Models
         {
 
         }
+        public DbSet<TipoUsuarios> TipoUsuarios { get; set; }
+
+        public DbSet<Horarios> Horarios { get; set; }
+
+        public DbSet<Classificacoes> Classificacoes{ get; set; }
     }
 }
+    
