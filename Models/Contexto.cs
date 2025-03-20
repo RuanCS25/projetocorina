@@ -1,6 +1,10 @@
-﻿namespace ProjetoCorina.Models
+﻿using Microsoft.EntityFrameworkCore;
+
+
+namespace ProjetoCorina.Models
 {
-    public class Contexto
+    public class Contexto : DbContext 
     {
+
     }
 }
